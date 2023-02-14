@@ -1,0 +1,9 @@
+amaranth==0.3
+amaranth-boards @ git+https://github.com/cyber-murmel/amaranth-boards.git@fdd0038e1bd03021961923ef10f6ffee6cbc17f7
+amaranth-soc==0
+apollo-fpga @ git+https://github.com/mkj/apollo.git@e7adeb93bcf2c67cb623e8bb278e68416c39fceb
+Jinja2==2.11.3
+MarkupSafe==2.0.1
+pyserial==3.5
+pyusb==1.2.1
+pyvcd==0.2.4
