@@ -1,0 +1,5 @@
+# please refer to `man 5 gtkwaverc`
+# https://linux.die.net/man/5/gtkwaverc
+
+do_initial_zoom_fit 1
+splash_disable 1
