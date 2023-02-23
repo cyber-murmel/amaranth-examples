@@ -27,7 +27,6 @@ class Top(Elaboratable):
     def __init__(self, clk_frequency):
         # for simulation
         self.clock = Signal(1)
-        self.reset = Signal(1)
 
         self.template = Template()
 
@@ -36,7 +35,6 @@ class Top(Elaboratable):
         return [
             # for simulation
             self.clock,
-            self.reset,
         ]
         +self.template.ports
 
@@ -46,7 +44,6 @@ class Top(Elaboratable):
         m.d.comb += [
             # for simulation
             self.clock.eq(ClockSignal()),
-            self.reset.eq(ResetSignal()),
         ]
 
         m.submodules.template = self.template

@@ -30,7 +30,7 @@ python3 -m template simulate -c 100 -p 1e-3 -v template.vcd -w template.gtkw
 gtkwave template.gtkw
 ```
 
-You should see a mostly empty trace plot with only clock and reset running for 100ms.
+You should see a mostly empty trace plot with only the clock running for 100ms.
 ![screenshot of GTKWave](assets/template.png)
 
 ### Programming
